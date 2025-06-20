@@ -1,32 +1,49 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="formulario interactivo">
+    <meta name="keywords" content="js,html,css">
+    <meta name="sitedomain" content="aca pones la url del sitio o del github">
+    <meta name="organization" content="Chris-Liebheart.">
+    <meta name="author" content="Cristian Alejandro Sobrino Hernandez">
+    <meta name="designer" content="Cristian Alejandro Sobrino Hernandez">
+    <meta name="copyright" content="© 2025 Chris-Liebheart. All rights reserved">
+    <meta name="robots" content="index,follow">
+    <meta name="googlebot" content="index,follow">
+    <meta name="revisit-after" content="15days">
+    <meta name="theme-color" content="#ffffff">
     <link rel="stylesheet" href="src/css/stylee.css">
-    <title>Document</title>
+    <title>Formulario Interactivo</title>
 </head>
+
 <body>
     <main>
-     <section class="form-container">
-       <form action="" class="register-form"></form>
-       <div class="input-inline">
-        <label for="name" class="label-form">nombre:</label>
-        <input type="text" id="name" class="input-field" placeholder="Escribe tu nombre">
-       </div>
-       <div class="input-inline">
-        <label for="edad" class="label-form">edad:</label>
-        <input type="text" id="email" class="input-field" placeholder="Escribe tu edad">
-       </div>
-       <div>
-        <button type="submit" class="button-form">enviar</button>
-       </div>
-     </section>
+        <section class="form-container">
+            <form id="register-form" class="register-form">
+                <div class="input-inline">
+                    <label for="nombre" class="label-form">Nombre:</label>
+                    <input type="text" id="nombre" class="input-field" placeholder="Escribe tu nombre">
+                </div>
+                <div class="input-inline">
+                    <label for="edad" class="label-form">Edad:</label>
+                    <input type="text" id="edad" class="input-field" placeholder="Escribe tu edad">
+                </div>
+                <div>
+                    <button type="submit" class="button">Enviar</button>
+                </div>
+            </form>
+            <div id="output"></div>
+        </section>
     </main>
-    
+
     <footer>
-        <article>
-        </article>
+        <article>© 2025 Chris-Liebheart. All rights reserved</article>
     </footer>
+
+    <script src="./src/js/sistema_interactivo.js"></script>
 </body>
+
 </html>
